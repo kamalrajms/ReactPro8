@@ -1,0 +1,9 @@
+
+
+## Props
+
+    Props is nothing but passing data from one component to 
+    another component.
+
+            declearing Props
+            destructureing props variable
