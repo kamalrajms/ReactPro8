@@ -49,3 +49,21 @@
 ## list Rengering 
 
     Rengering multiple items dynamically using .map()
+
+22/12/2025
+
+## usestate() && Form contrlled input
+
+    usestate is a react hook that allows you to add state (data that can change 
+    over time) to a functional component.
+     
+    Normally , in js function ,variable disappear after the function runs, but with 
+    usestate ,react remember values b/w re-render.
+
+    syntex:
+
+        const [state,setstate]=usestate(initialValue)
+
+        state---- thecurrent value of the state variable
+        setstate--- a function that update the  state
+        initialValue--- the starting value of the state.

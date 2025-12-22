@@ -2,6 +2,9 @@ import React from "react";
 import Greeting from "./Greeting";
 import ConditionalRendering from "./Component/ConditionalRendering";
 import ListRender from "./Component/ListRender";
+import UseStateHook from "./Component/UseStateHook";
+import Dark from "./Component/Dark";
+import FieldInput from "./Component/FieldInput";
 // import
 export default function App() {
   //logic
@@ -10,9 +13,12 @@ export default function App() {
   const age = 23;
   const user = false;
   console.log(user);
-  
+
   return (
     <>
+      <FieldInput />
+      <Dark />
+      <UseStateHook />
       {user ? (
         <div>
           <h5>listrendering</h5>
