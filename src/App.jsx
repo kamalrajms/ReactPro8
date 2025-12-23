@@ -5,6 +5,8 @@ import ListRender from "./Component/ListRender";
 import UseStateHook from "./Component/UseStateHook";
 import Dark from "./Component/Dark";
 import FieldInput from "./Component/FieldInput";
+import FormUsestate from "./Component/FormUsestate";
+import RegForm from "./Component/RegForm";
 // import
 export default function App() {
   //logic
@@ -16,6 +18,8 @@ export default function App() {
 
   return (
     <>
+      <RegForm />
+      <FormUsestate />
       <FieldInput />
       <Dark />
       <UseStateHook />
