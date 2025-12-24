@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./RegForm.css";
 
 export default function RegForm() {
   const [formData, setFormData] = useState({
@@ -38,7 +39,7 @@ export default function RegForm() {
   };
   return (
     <div>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="formusestate">
         <h2>Register form</h2>
         {error && <p style={{ color: "red" }}> {error}</p>}
         <input

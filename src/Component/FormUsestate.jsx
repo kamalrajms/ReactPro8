@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import style from "./FormUsestate.module.css";
 
 export default function FormUsestate() {
   const [formData, setFormData] = useState({
@@ -16,8 +17,8 @@ export default function FormUsestate() {
   //   console.log(formData);
 
   return (
-    <div>
-      <h2>Multiple fields input</h2>
+    <div className={style.moduleCSS}>
+      <h2 style={{ padding: "50px" }}>Multiple fields input</h2>
       <input
         name="name"
         type="text"

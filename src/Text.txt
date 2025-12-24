@@ -67,3 +67,47 @@
         state---- thecurrent value of the state variable
         setstate--- a function that update the  state
         initialValue--- the starting value of the state.
+
+24/12/2025
+
+## styleing in react Applications
+
+    global styleing --- index.css,app.css
+    External styleing--- external css files.
+    Module way styleing--- file name as  [filename.module.css]
+    inline style
+    Object way styleing--- by declearing Object
+
+
+## types  of domain
+
+    .com---commercial
+    .org--- organization
+    .edu---education
+    .net---network
+    .in---india
+    .gov---government
+    .info---information
+    .mil---military
+    .co---company
+    .biz---business
+    .app---Application
+
+## useEffect()
+
+    In react,useEffect is a hook that lets you perform side effect in functional component.
+    Side effect are task that happens ouside the normal react rendering process...
+            Fetching data from API
+            Updating the browser DOM manually.
+            starting/stoping timers
+
+    syntex:
+
+        useEffect(()=>{
+            //code
+            
+        },[dependency1,dependency2,dependency3......])
+        
+        []-- doesn't add any dependency means it will execute only one at the begining.
+
+

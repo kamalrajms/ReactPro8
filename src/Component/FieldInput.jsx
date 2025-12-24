@@ -9,7 +9,7 @@ export default function FieldInput() {
   console.log(isChecked);
 
   return (
-    <div>
+    <div className="Field">
       {/* eg1 */}
       <h2>Controlled input</h2>
       <input

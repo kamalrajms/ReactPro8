@@ -7,6 +7,8 @@ import Dark from "./Component/Dark";
 import FieldInput from "./Component/FieldInput";
 import FormUsestate from "./Component/FormUsestate";
 import RegForm from "./Component/RegForm";
+import ObjectCSS from "./Component/ObjectCSS";
+import UseEffectHook from "./Component/UseEffectHook";
 // import
 export default function App() {
   //logic
@@ -18,6 +20,8 @@ export default function App() {
 
   return (
     <>
+      <UseEffectHook />
+      <ObjectCSS />
       <RegForm />
       <FormUsestate />
       <FieldInput />

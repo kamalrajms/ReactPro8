@@ -7,7 +7,7 @@ export default function UseStateHook() {
   // eg2
   const [logged, setLogged] = useState(true);
   return (
-    <div>
+    <div className="UsestateHook">
       {/* eg1 */}
       <h1>Count : {count}</h1>
       <button onClick={() => setCount(count + 1)}>Incremeent</button>

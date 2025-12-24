@@ -3,7 +3,7 @@ import React from "react";
 export default function ConditionalRendering() {
   const IsLogged = true;
   return (
-    <div>
+    <div className="conditionalrendering">
       {/* ternary operator */}
       {IsLogged ? <p>Welcome</p> : <p>Please login...!</p>}
 
