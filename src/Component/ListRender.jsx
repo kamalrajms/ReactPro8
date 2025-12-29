@@ -5,9 +5,9 @@ export default function ListRender() {
   const fruits = ["apple", "banana", "Mango", "grapes", "orange"];
   //eg2
   const users = [
-    // { id: 1, name: "Kumar" },
-    // { id: 2, name: "hari" },
-    // { id: 3, name: "rahul" },
+    { id: 1, name: "Kumar" },
+    { id: 2, name: "hari" },
+    { id: 3, name: "rahul" },
   ];
 
   return (

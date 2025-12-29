@@ -111,3 +111,15 @@
         []-- doesn't add any dependency means it will execute only one at the begining.
 
 
+29/12/2025
+
+## useRef()
+
+    useRef is a rect hook that gives you a box (.current) you can store anything in 
+    like---num,str,function,object,even dom elements..
+
+    That value persists between renders
+
+    Updating it does not cause your component t re-render
+
+    {current:value}

@@ -9,6 +9,9 @@ import FormUsestate from "./Component/FormUsestate";
 import RegForm from "./Component/RegForm";
 import ObjectCSS from "./Component/ObjectCSS";
 import UseEffectHook from "./Component/UseEffectHook";
+import UseEffectTimer from "./Component/UseEffectTimer";
+import UseEffectAIP from "./Component/UseEffectAIP";
+import UseRefHook from "./Component/UseRefHook";
 // import
 export default function App() {
   //logic
@@ -20,6 +23,9 @@ export default function App() {
 
   return (
     <>
+      <UseRefHook />
+      <UseEffectAIP />
+      <UseEffectTimer />
       <UseEffectHook />
       <ObjectCSS />
       <RegForm />
