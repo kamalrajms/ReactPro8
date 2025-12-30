@@ -12,6 +12,7 @@ import UseEffectHook from "./Component/UseEffectHook";
 import UseEffectTimer from "./Component/UseEffectTimer";
 import UseEffectAIP from "./Component/UseEffectAIP";
 import UseRefHook from "./Component/UseRefHook";
+import First from "./Context/First";
 // import
 export default function App() {
   //logic
@@ -23,6 +24,10 @@ export default function App() {
 
   return (
     <>
+      <div style={{ border: "2px solid black", padding: "20px" }}>
+        <h2>App component--{name}</h2>
+        <First name={name}/>
+      </div>
       <UseRefHook />
       <UseEffectAIP />
       <UseEffectTimer />

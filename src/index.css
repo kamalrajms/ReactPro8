@@ -17,3 +17,20 @@
 .moduleCSS {
   padding: 200px;
 }
+
+/* uesref */
+
+.image-container {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  background-color: aqua;
+  cursor: pointer;
+}
+.imageURL {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  /* background-color: aqua; */
+  cursor: pointer;
+}

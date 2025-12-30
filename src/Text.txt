@@ -123,3 +123,17 @@
     Updating it does not cause your component t re-render
 
     {current:value}
+
+30/12/2025
+
+## useContext()
+
+    Passing data from a parent component down to deep nested child component is annoying.
+
+    Normally,ypu'd have to pass props manually through each level (called props drilling)
+
+    useContext let you skip all the middle components and share data direectly.
+
+                create a context 
+                Proviide  a value
+                Consume the value
