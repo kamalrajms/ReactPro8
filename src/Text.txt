@@ -135,5 +135,18 @@
     useContext let you skip all the middle components and share data direectly.
 
                 create a context 
-                Proviide  a value
+                Provide  a value
                 Consume the value
+
+31/12/2025
+
+## useReducer
+
+    syntex:
+
+        const [state,dispatch]=useReducer(reducerFunction,initialState)
+
+        state---current state (like usestate value)
+        dispatch(action)--- a function to tell thee reducer what to  does
+        reducerFunction(state,action)---the logic that returns a new  state
+        initialState---starting value

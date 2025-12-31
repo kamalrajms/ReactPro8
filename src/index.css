@@ -34,3 +34,13 @@
   /* background-color: aqua; */
   cursor: pointer;
 }
+
+/* context */
+.light {
+  background-color: #fff;
+  color: #000;
+}
+.black {
+  background-color: #000;
+  color: #fff;
+}
