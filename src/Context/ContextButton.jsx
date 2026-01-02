@@ -7,7 +7,7 @@ export default function ContextButton() {
 
   return (
     <div>
-      <input type="text" value={data.userName} />
+      {/* <input type="text" value={data.userName} /> */}
       <button onClick={() => setMode(mode === "light" ? "black" : "light")}>
         theme
       </button>

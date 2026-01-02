@@ -150,3 +150,19 @@
         dispatch(action)--- a function to tell thee reducer what to  does
         reducerFunction(state,action)---the logic that returns a new  state
         initialState---starting value
+
+02/101/2026
+
+## useCallback()
+
+    Every time a component Re-renders,
+    It creates a brand new copy of every function inside it.
+
+    even if the function's code looks exactly the same,
+    React sees it as different because it's a new object in memory
+
+    syntex:
+
+        const name = useCallback(()=>{
+
+        },[dependency1,dependency2...])

@@ -15,6 +15,8 @@ import UseRefHook from "./Component/UseRefHook";
 import First from "./Context/First";
 import ContextHook from "./Context/ContextHook";
 import UseReducerHook from "./Component/UseReducerHook";
+import UesReducerForm from "./Component/UesReducerForm";
+import UseCallBackHook from "./Component/UseCallBackHook";
 
 export const Pass = createContext();
 // import
@@ -30,6 +32,8 @@ export default function App() {
   const data = { userName: "Hari" };
   return (
     <>
+      <UseCallBackHook />
+      <UesReducerForm />
       <UseReducerHook />
       <Pass.Provider value={{ mode, setMode, data }}>
         <ContextHook />
