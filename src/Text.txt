@@ -52,7 +52,7 @@
 
 22/12/2025
 
-## usestate() && Form contrlled input
+## usestate()
 
     usestate is a react hook that allows you to add state (data that can change 
     over time) to a functional component.
@@ -67,6 +67,10 @@
         state---- thecurrent value of the state variable
         setstate--- a function that update the  state
         initialValue--- the starting value of the state.
+
+23/12/2025
+
+## Form contrlled input
 
 24/12/2025
 
@@ -151,7 +155,7 @@
         reducerFunction(state,action)---the logic that returns a new  state
         initialState---starting value
 
-02/101/2026
+02/01/2026
 
 ## useCallback()
 
@@ -166,3 +170,54 @@
         const name = useCallback(()=>{
 
         },[dependency1,dependency2...])
+
+05/01/2026
+
+## Routing in react & nested routing
+
+    Routing means navigation between different pages in a web application without 
+    refreshing the browser.
+    In traditional websites ,clicking a link reloads the hole page.
+    In react(SPA) ,Routing lets us changes the view without reloading.
+
+        better performance 
+        Smooth user experiance
+        Control over navigation without server request.
+
+    basic structuer
+
+    <BrowserRouter>
+    <Routes>
+    <Route path={""} element={<component/>}/>
+    <Route path={""} element={<home/>}/>
+    <Route path={""} element={<about/>}/>
+    <Route path={""} element={<about/>}/>
+    </Routes>
+    </BrowserRouter>    
+
+
+    BrowserRouter
+
+        it is main wrapper component for routing in react app.
+        it enables navigation using the browser URL (history).
+        without this routing will not work
+
+    Routes
+
+        it contains all the <Route/> component.
+        it tells react  router with component to show for which path.
+        only one route will match and render at a time.
+
+    Route
+
+        define a specific URL path and which component should load for the path.
+
+
+
+    commend: npm install react-router-dom
+
+
+## useNavigate()--- react router
+
+    useNavigate is from react routing dom, it helps to 
+    navigation b/w pages or component.
