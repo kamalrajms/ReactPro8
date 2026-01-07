@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import UseIdHook from "../Component/UseIdHook";
+import CustomCount from "../CustomHook/CustomCount";
 
 export default function Home() {
   const page = useNavigate();
@@ -12,6 +13,8 @@ export default function Home() {
   }, [count]);
   return (
     <div>
+      <h2>custom hook</h2>
+      <CustomCount />
       <h2>useId hook</h2>
       <UseIdHook />
       <UseIdHook />

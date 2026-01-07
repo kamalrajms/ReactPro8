@@ -238,3 +238,49 @@
 
 ## XO game
 
+07/01/2026
+
+## custom Hooks
+
+    A Custom hook is a reusable function in react that contains logic useing hooks (like usestate,useEffect..)
+    it allows you to share and reuse stateful logic bw multiple components without repeatig code.
+
+    tha name of a custom hook must start with [use] , such as  useFetch, useLocator... in a js
+
+
+## structure for fetch method
+
+    array=[
+        {
+            "name":""kamal",
+            "class":"react.js"
+        },
+        {
+            "name":""kamal",
+            "class":"react.js"
+        },
+        {
+            "name":""kamal",
+            "class":"react.js"
+        },
+    ]
+
+
+## structure for axios method
+
+resopnse={
+    data:[
+        {
+            name:"kamal",
+            class:"react.js"
+        },
+        {
+            name:"kamal",
+            class:"react.js"
+        },
+    ],
+    status:200,
+    statusText:"ok",
+    header:{},
+    config:{},
+}

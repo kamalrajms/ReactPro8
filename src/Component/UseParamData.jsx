@@ -14,7 +14,7 @@ export default function UseParamData() {
       });
   }, []);
   console.log(idname);
-//   console.log(user);
+  //   console.log(user);
 
   return (
     <div>
@@ -22,7 +22,7 @@ export default function UseParamData() {
       <ul>
         {user.map((user) => (
           <li id={idname} key={user.id}>
-            <Link to={`/blogs/:${user.id}`}>{user.name}</Link>
+            <Link to={`/blogs/:${user.name}`}>{user.name}</Link>
           </li>
         ))}
       </ul>
