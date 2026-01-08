@@ -107,7 +107,7 @@
 
     syntex:
 
-        useEffect(()=>{
+        useEffect(()=>{ 
             //code
             
         },[dependency1,dependency2,dependency3......])
@@ -283,4 +283,9 @@ resopnse={
     statusText:"ok",
     header:{},
     config:{},
-}
+} 
+
+
+08/01/2026
+
+## chat app (mini application)

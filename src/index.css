@@ -47,11 +47,43 @@
 
 /* router */
 
-.header{
+.header {
   width: 100vw;
   background-color: aqua;
   height: 10vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+
+/* chat app */
+
+.chat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+.chat-app {
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+  background-color: aquamarine;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.chat-app > textarea,
+.chat-app > input,
+.chat-app > button {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid gray;
+}
+.chat-app > button {
+  cursor: pointer;
 }
