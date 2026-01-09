@@ -308,5 +308,6 @@ resopnse={
         updata--put
         delete data-- delete
 
+## netlify
 
 ----thank you..----
