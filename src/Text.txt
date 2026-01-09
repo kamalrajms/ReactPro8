@@ -289,3 +289,24 @@ resopnse={
 08/01/2026
 
 ## chat app (mini application)
+
+09/01/2026
+
+## CRED operation
+
+
+        react app(frontend)                         server(backend)
+
+            frontend         http request ------>>>      backend
+                        http Response<<<-----{json}
+
+    
+    CRED 
+
+        Create data--- post
+        read data-- get
+        updata--put
+        delete data-- delete
+
+
+----thank you..----
